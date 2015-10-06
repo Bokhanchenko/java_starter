@@ -12,7 +12,7 @@ public class TaskFive {
     public static void main(String[] args) {
         float f = (float)128.50;
         int i = (int)f;
-        int b = (int)(i + f);
+        int b = (int)(i + f);  // міняємо (int) на (byte). Явний кастінг + вирізаються символи після запятої..
         System.out.println(b);
     }
 }
