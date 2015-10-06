@@ -14,7 +14,7 @@ public class TaskThree {
         int b = 4;
         int c = 3;
         int e = 2;
-        double d = a + b/c/e;
+        double d = a + b/c/(float)e; // я не можу це пояснити)), мабуть змінено лише один тип змінної...
         System.out.println(d);
     }
 }
