@@ -13,6 +13,9 @@ public class TaskFour {
         int a = 15;
         int b = 4;
         float c = (float) ((double) a / b);  // взагалі не маю уявлення що я зробив і як... це в мене інтуєтивно виходить..
+        
+        //  "1е-3" команда що вказує кількість символів після коми?    
+        
         double d = a * 1e-3 + c;
         System.out.println(d);
     }
