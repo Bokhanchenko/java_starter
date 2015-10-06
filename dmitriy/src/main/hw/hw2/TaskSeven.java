@@ -13,6 +13,9 @@ public class TaskSeven {
         int a = (byte)44;
         int b = (byte)300;
         short c = (byte)(b - a);
+        
+        /// міняємо все в лапках на (short) - значення змінної вписується в розмір виділеної на неї п*амяті
+        
         System.out.println(c);
     }
 }
